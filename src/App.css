@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%; /* Pastikan halaman menggunakan tinggi penuh */
+  font-family: Arial, sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f78fb7;
+  color: #333;
+  display: flex; /* Gunakan Flexbox untuk sentralisasi konten */
+  flex-direction: column;
+  justify-content: space-between; /* Mengatur elemen secara vertikal */
+  min-height: 100vh; /* Menjamin tinggi minimal sesuai viewport */
+}
+
+header {
+  background-color: #e940a8;
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+.cat-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cat-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cat-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
