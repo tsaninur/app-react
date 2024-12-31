@@ -5,6 +5,8 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <BrowserRouter basename="/app-react">  {/* Set basename for GitHub Pages */}
+      <App />
+    </BrowserRouter>
   </StrictMode>,
 )
